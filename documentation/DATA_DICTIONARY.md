@@ -16,5 +16,3 @@
 | `latency_ms` | Illustrative per-record latency in milliseconds |
 | `cpu_overhead_pct` | Illustrative CPU overhead percentage |
 | `experiment_seed` | Seed used for reproducible record generation |
-
-**These fields describe generated illustrative records, not observed agent actions or measured outcomes.**
