@@ -1,7 +1,0 @@
-threat_vector,data_status,n_records,block_rate,median_latency_ms
-A1,generated_illustrative_not_observed,2753,0.7152197602615329,10.739
-A2,generated_illustrative_not_observed,2559,0.7080890973036342,10.359
-A3,generated_illustrative_not_observed,2374,0.6950294860994103,10.168
-A4,generated_illustrative_not_observed,2552,0.7061128526645768,10.4455
-A5,generated_illustrative_not_observed,2162,0.7141535615171137,10.263
-BENIGN,generated_illustrative_not_observed,3050,0.0088524590163934,10.4905

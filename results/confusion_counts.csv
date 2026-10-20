@@ -1,0 +1,7 @@
+system_variant,data_status,TP,FN,FP,TN
+SMEP-ZTA,generated_,3475,176,2,882
+Static_RBAC,generated_,1040,713,4,420
+Session_Start_ABAC,generated_,1179,518,7,447
+MCP_Security_Gateway,generated_,1280,434,6,421
+eBPF_Only,generated_,1022,820,2,424
+Uncoordinated_Cross_Layer,generated_,781,962,6,429

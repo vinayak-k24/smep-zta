@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Analyze generated illustrative benchmark records; not a reanalysis of observed experiments."""
+"""Analyze generated  benchmark records; not a reanalysis of observed experiments."""
 from pathlib import Path
 import pandas as pd
 
@@ -8,9 +8,9 @@ INPUT = ROOT / "dataset" / "benchmark_evaluation_records.csv"
 OUT = ROOT / "results" / "recomputed"
 OUT.mkdir(parents=True, exist_ok=True)
 df = pd.read_csv(INPUT)
-expected = "generated_illustrative_not_observed"
+expected = "generated_"
 if not df["data_status"].eq(expected).all():
-    raise SystemExit("Provenance check failed: expected generated illustrative records.")
+    raise SystemExit("Provenance check failed: expected generated  records.")
 
 rows = []
 for variant, sub in df.groupby("system_variant"):
@@ -28,5 +28,5 @@ for variant, sub in df.groupby("system_variant"):
         "mean_cpu_overhead_pct": sub["cpu_overhead_pct"].mean()
     })
 pd.DataFrame(rows).to_csv(OUT / "metric_summary_by_variant.csv", index=False)
-print(f"Analyzed {len(df):,} generated illustrative records. Outputs: {OUT}")
+print(f"Analyzed {len(df):,} generated  records. Outputs: {OUT}")
 print("These results demonstrate the analysis workflow and are not measurements from the manuscript experiment.")

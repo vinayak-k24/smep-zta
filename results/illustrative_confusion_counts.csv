@@ -1,7 +1,0 @@
-system_variant,data_status,TP,FN,FP,TN
-SMEP-ZTA,generated_illustrative_not_observed,3475,176,2,882
-Static_RBAC,generated_illustrative_not_observed,1040,713,4,420
-Session_Start_ABAC,generated_illustrative_not_observed,1179,518,7,447
-MCP_Security_Gateway,generated_illustrative_not_observed,1280,434,6,421
-eBPF_Only,generated_illustrative_not_observed,1022,820,2,424
-Uncoordinated_Cross_Layer,generated_illustrative_not_observed,781,962,6,429
