@@ -23,6 +23,3 @@ The manuscript reports 94.94% adversarial action block rate, 0.13% false-positiv
 python code/analyze_benchmark_records.py
 ```
 The script writes derived summaries to `results/recomputed/`.
-
-## Preparing the empirical reviewer package
-Replace the illustrative records with original study logs and retain a clear provenance trail. Include the actual run manifest, software versions, configuration, environment details, metric definitions, and scripts used to generate each manuscript table. Reconcile scenario counts and verify every reported number before depositing the package.
