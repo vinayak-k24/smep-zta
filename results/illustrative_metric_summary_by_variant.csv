@@ -1,0 +1,7 @@
+system_variant,data_status,n_records,n_adversarial,n_benign,adversarial_block_rate,benign_false_positive_rate,median_latency_ms,mean_cpu_overhead_pct
+SMEP-ZTA,generated_illustrative_not_observed,4535,3651,884,0.9517940290331416,0.002262443438914,18.39,3.234819625137817
+Static_RBAC,generated_illustrative_not_observed,2177,1753,424,0.5932686822589845,0.0094339622641509,7.797,1.4015424896646762
+Session_Start_ABAC,generated_illustrative_not_observed,2151,1697,454,0.6947554507955215,0.0154185022026431,10.189,1.8067917247791725
+MCP_Security_Gateway,generated_illustrative_not_observed,2141,1714,427,0.7467911318553092,0.0140515222482435,13.496,2.3002573563755253
+eBPF_Only,generated_illustrative_not_observed,2268,1842,426,0.5548317046688382,0.0046948356807511,8.696,1.6012231040564375
+Uncoordinated_Cross_Layer,generated_illustrative_not_observed,2178,1743,435,0.4480780263912794,0.0137931034482758,5.8855,1.0027497704315886

@@ -1,0 +1,32 @@
+{
+  "package_status": "GENERATED ILLUSTRATIVE BENCHMARK RECORDS \u2014 NOT OBSERVED EXPERIMENTAL DATA",
+  "seed": 20261020,
+  "total_records": 15450,
+  "adversarial_records": 12400,
+  "benign_records": 3050,
+  "agents": 150,
+  "tool_endpoints": 45,
+  "threat_vectors": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+  ],
+  "system_variants": [
+    "SMEP-ZTA",
+    "Static_RBAC",
+    "Session_Start_ABAC",
+    "MCP_Security_Gateway",
+    "eBPF_Only",
+    "Uncoordinated_Cross_Layer"
+  ],
+  "manuscript_reported_reference_values_not_reproduced_by_this_data": {
+    "adversarial_action_block_rate": 0.9494,
+    "false_positive_rate": 0.0013,
+    "macro_f1": 0.94,
+    "p50_latency_ms": 18.4,
+    "cpu_overhead_pct": 3.23
+  },
+  "note": "The records are generated for workflow testing and demonstration. They are not observations from the study and cannot validate or substantiate the manuscript's reported experimental results."
+}
